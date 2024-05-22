@@ -1,0 +1,88 @@
+header,
+footer,
+.modal-header {
+  background-color: rgb(6, 20, 80);
+  color: rgb(255, 255, 255);
+}
+
+/* Clear Sans */
+@font-face {
+  font-family: "Clear Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://github.com/intel/clear-sans/blob/main/EOT/ClearSans-Regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Clear Sans"), local("Clear-Sans"),
+    url("./fonts/ClearSans-Regular.eot#iefix") format("embedded-opentype"),
+    /* Super Modern Browsers*/
+    url("./fonts/ClearSans-Regular.woff") format("woff"),
+    /* * Modern Browsers */
+    url("./fonts/ClearSans-Regular.ttf") format("truetype"),
+    /* Safari, Android, iOS */
+    url("./fonts/ClearSans-Regular.svg#ClearSans") format("svg");
+  /*Legacy iOS */
+}
+
+header h1 {
+  font-family: "Clear Sans", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  margin-left: 20px;
+}
+
+body {
+  font-family: "Clear Sans", sans-serif;
+}
+
+.btn-primary {
+  background-color: rgb(6, 20, 80);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(6, 20, 80);
+}
+
+.btn-primary:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(6, 20, 80);
+  border: 1px solid rgb(0, 54, 80);
+}
+
+.nav-link {
+  color: rgb(200, 200, 200) !important;
+}
+
+.nav-link.active {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28200, 200, 200, 1.0%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+a,
+a:hover {
+  color: rgb(200, 200, 200);
+}
+
+#todoDateCreated {
+  border: none;
+  margin-top: 5px;
+}
+
+#loading {
+  color: #6c757d;
+}
+
+#error {
+  color: #dc3545;
+}
+
+#link {
+  text-decoration: underline;
+}
+
+#link:hover {
+  color: rgb(200, 200, 200);
+  cursor: pointer;
+}
